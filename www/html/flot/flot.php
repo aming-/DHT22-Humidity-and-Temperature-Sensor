@@ -2,6 +2,7 @@
 <html>
  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="refresh" content="30" >
 	<link rel="SHORTCUT ICON" href="../icon.png" />
 
     <title>Flot H/T/HTI</title>
