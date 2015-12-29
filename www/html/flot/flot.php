@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="SHORTCUT ICON" href="../icon.png" />
 
-    <title>Flot Example</title>
+    <title>Flot H/T/HTI</title>
     <link href="layout.css" rel="stylesheet" type="text/css">
     <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="./excanvas.min.js"></script><![endif]-->
     <script language="javascript" type="text/javascript" src="./jquery.js"></script>
@@ -65,11 +65,11 @@
 	$filename = substr($filename,0,10);
     echo "<b>".$filename."</b><br><font color='red' face='verdana' size='4'><b>H=".$humidity."%  T=".$temperature."&#186;C <br>THI=".$thi."&#186;C - ".$clima."<br></b></font>";
 ?>    
-<b>Humidity</b>
+<b>Humidity %</b>
     <div id="placeholder1" style="width:1200px;height:300px;"></div>
-<b>Temperature</b>
+<b>Temperature &#186;C</b>
     <div id="placeholder2" style="width:1200px;height:300px;"></div>
-<b>Thermohygrometric Index</b>
+<b>Thermohygrometric Index &#186;C</b>
     <div id="placeholder3" style="width:1200px;height:300px;"></div>
 
 <script type="text/javascript">
@@ -97,9 +97,6 @@ $(function () {
     echo 'd2.push(['.$stamp.', '.$temperature.']);';
     echo 'd3.push(['.$stamp.', '.$thi.']);';
 	
-	
-        //d.push([1, 18.5]);
-
 	}
 	fclose($handle);
 ?>    
