@@ -1,7 +1,15 @@
+# http://www.airspayce.com/mikem/bcm2835/
+
 # download the latest version of the library, say bcm2835-1.xx.tar.gz, then:
+
 tar zxvf bcm2835-1.xx.tar.gz
+
 cd bcm2835-1.xx
+
 ./configure
+
 make
+
 sudo make check
+
 sudo make install
